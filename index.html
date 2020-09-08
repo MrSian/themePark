@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="utf-8">
+	<title>MrSian.微风细雨</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.7,maximum-scale=1.0,user-scalable=no">
+	<meta name="apple-mobile-app-capable" content="yes">
+	<meta name="apple-mobile-app-status-bar-style" content="black">
+	<meta name="description" content="一缕微风，祈以祝福。万滴细雨，意为恩赐。">
+	<meta name="keywords"
+		content="解落三秋叶，能开二月花。 过江千尺浪，入竹万竿斜。">
+	<meta name="application-name" content="wind & rain">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/process.css">
+	<link rel="stylesheet" href="css/mp/mplayer.css">
+	<script src="js/jquery-3.0.0.js"></script>
+	<script src="js/project.js"></script>
+	<script src="js/zzbaidu.js"></script>
+</head>
+
+<body onload="loaddone()">
+	<header class="head">
+
+		<div class="head_logo_div">
+			<img class="logo_img" src="images/pic/head.jpg">
+		</div>
+		<div class="head_nav_div">
+			<nav class="head_nav">
+				<ul id="nav_ul">
+					<li class="nav_li_on nav_ul_li">主页</li>
+					<li class="nav_ul_li">时间表</li>
+					<li class="nav_ul_li">体验</li>
+					<li class="nav_ul_li">爱好</li>
+					<li class="nav_ul_li">联系我</li>
+					<li id="huam"></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="clear"></div>
+	</header>
+	<ul class="float_btn" id="float_btn">
+		<li class="btn_on"></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	<div id="arrow_img" class="arrow_div">
+		<img class="arrow_img" src="images/icon/arrowhead.png">
+	</div>
+	<div class="wrapBox" id="wrapBox" style="top:0px;">
+		<div class="box bg01" id="box">
+			<div class="box01_content">
+				<div id="cycle_item" class="cycle_item">
+					<a href="https://github.com/MrSian" class="cycle_a" id="item_1" target="_blank">
+						<span class="cycle_icon_1"></span>
+						<span class="cycle_text">
+							<p class="item_name">GitHub</p>
+						</span>
+					</a>
+					<a href="null" class="cycle_a" id="item_2" target="_blank">
+						<span class="cycle_icon_2"></span>
+						<span class="cycle_text">
+							<p class="item_name">微博</p>
+						</span>
+					</a>
+					<a href="null" class="cycle_a" id="item_3" target="_blank">
+						<span class="cycle_icon_3"></span>
+						<span class="cycle_text">
+							<p class="item_name"> QQ</p>
+						</span>
+					</a>
+					<svg version="1.1" baseProfile="tiny" x="0px" y="0px" width="260px" height="260px"
+						viewBox="0 0 260 260" xml:space="preserve" class="green_cycle_img">
+						<path fill="none" stroke="#009245" stroke-width="2" stroke-miterlimit="10" d="M259.207,129.953c0,71.244-57.755,129-129,129
+	s-129-57.756-129-129c0-71.245,57.755-129,129-129"></path>
+					</svg>
+					<svg class="yellow_cycle_img" version="1.1" baseProfile="tiny" x="0px" y="0px" width="240px"
+						height="240px" viewBox="0 0 240 240" xml:space="preserve">
+						<path fill="none" stroke="#FFFF00" stroke-width="2" stroke-miterlimit="10" d="M1.344,120.055c0-65.722,53.278-119,119-119
+	c65.723,0,119,53.278,119,119s-53.277,119-119,119"></path>
+					</svg>
+					<svg class="blue_cycle_img" version="1.1" x="0px" y="0px" width="220px" height="220px"
+						viewBox="0 0 220 220" enable-background="new 0 0 220 220" xml:space="preserve">
+						<path fill="none" stroke="#0000FF" stroke-width="2" stroke-miterlimit="10"
+							d="M110.273,218.98c-60.199,0-109-48.802-109-109"></path>
+						<path fill="none" stroke="#0000FF" stroke-width="2" stroke-miterlimit="10" d="M219.273,109.98">
+						</path>
+						<path fill="#FFFFFF" stroke="#0000FF" stroke-width="2" stroke-miterlimit="10" d="M110.273,0.98">
+						</path>
+					</svg>
+
+					<img id="head" onclick="headclick()" class="head_img" src="images/pic/head.jpg">
+				</div>
+				<h1 class="title">MrSian.微风芊雨</h1>
+				<h2 class="title_h2">一缕微风，祈以祝福。万滴细雨，意为恩赐。</h2>
+				<div id="box01_text">
+					<p></p>
+					<p>为世界献上美好祝愿！</p>
+					<p>愿世界美好</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="box bg02">
+			<div class="box_content box02_content ">
+				<div id='bar_container' class="bar_container">
+					<div class='bar red' data-percent='65' data-skill='HTML5'></div>
+					<div class='bar mint' data-percent='60' data-skill='JavaScript'></div>
+					<div class='bar lila' data-percent='55' data-skill='CSS3'></div>
+					<div class='bar orange' data-percent='30' data-skill='node'></div>
+					<div class="bar gray" data-percent='65' data-skill='vue'></div>
+					<div class="bar mint" data-percent='45' data-skill='react'></div>
+					<div class="bar moe" data-percent='45' data-skill='帅,,ԾvԾ,,'></div>
+				</div>
+				<div id="box02_text">
+					<h1>渐渐被你吸引</h1>
+					<div class="overline"></div>
+					<p>心逐渐的被吸引</p>
+					<p>被你那迷人的笑脸</p>
+					<p>在这宇宙中希望的碎片</p>
+					<p></p> <!-- 留空段落达到延迟效果 -->
+					<p>我们一起逃离这无尽头的黑暗之中吧</p>
+					<p>抓紧我的手</p>
+					<p>当我再见到你的时候</p>
+					<p></p>
+					<p>在我孩提时代非常珍惜的那些回忆</p>
+					<p></p>
+					<p>和我共舞一曲好吗</p>
+					<p></p>
+					<p>充满了光和影的</p>
+					<p></p>
+					<p>你现在还是深爱着他吗 </p>
+					<p>虽然有时我也会想就此转身离去 </p>
+					<p>但我会用爱，勇气和自豪堂堂正正决斗的 </p>
+					<p>心逐渐的被吸引 </p>
+					<p>在这宇宙中希望的碎片 </p>
+					<p>我想不论是谁一定都想得到永远</p>
+					<p>虽然装作毫不在乎的样子</p>
+					<p></p>
+					<p>但其实是深爱着你的</p>
+					<p>我们一起逃离这无尽头的黑暗之中吧</p>
+					<p></p>
+					<p>抓紧你的手</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+
+		<div class="box bg03">
+
+			<div class="box_content box03_content">
+				<ul id="timeUl" class="timeUl">
+					<li>
+						<div>
+							<h1>04.24</h1>
+							<p>和Sakura去东京天空树，</p>
+							<p>世界上最暖和的地方，</p>
+							<p>在天空树的顶上。</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
+							<h1>04.26</h1>
+							<p>和Sakura去明治神宫，</p>
+							<p>有人在那里举办婚礼。</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
+							<h1>04.25</h1>
+							<p>和Sakura去迪士尼，</p>
+							<p>鬼屋很可怕，</p>
+							<p>但是有Sakura在，</p>
+							<p>所以不可怕。</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
+							<br />
+							<h1>E.N.D</h1>
+							<p>Sakura</p>
+							<p>最好了</p>
+							<p name="play_music" style="cursor: pointer" onclick="player.play(0,0)"> BGM: <u>最后的旅行</u>
+							</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
+							<br />
+							<h1>世界很温柔.....</h1>
+							<h1>我很喜欢这样的世界</h1>
+							<h1>但他不喜欢我</h1>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="left_div" id="left_div">
+				<img class="left_arrow" src="images/icon/arrowleft.png">
+			</div>
+			<div class="right_div" id="right_div">
+				<img class="right_arrow" src="images/icon/arrowright.png">
+			</div>
+		</div>
+
+		<div class="box bg04">
+			<div class="box_content box04_content">
+				<h1 class="box04_title">Something Of Hobby</h1>
+				<ul class="bq">
+					<li>
+						<a href="#">
+							<br />
+							<h2>世界好大啊</h2>
+							<h2>原来外面的时间</h2>
+							<h2>是这个这样子啊</h2>
+							<!--<p>Text Content #1</p>-->
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<!-- 测试矢量图 -->
+							<svg id="outSvg" viewBox="0 0 512 384" version="1.1" xmlns="http://www.w3.org/2000/svg" l>
+								<path fill="#000000" opacity="1.00"
+									d=" M 0.00 0.00 L 512.00 0.00 L 512.00 384.00 L 0.00 384.00 L 0.00 0.00 Z"></path>
+								<path fill="#FFFFFF" opacity="1.00"
+									d=" M 0.00 0.00 L 512.00 0.00 L 512.00 384.00 L 0.00 34.00 L 0.00 0.00 Z"></path>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h2>Title #3</h2>
+							<p>Text Content #3</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h2>Title #4</h2>
+							<p>Text Content #4</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h2>Title #5</h2>
+							<p>Text Content #5</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h2>Title #6</h2>
+							<p>Text Content #6</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h2>Title #2</h2>
+							<p>Text Content #2</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h2>Title #7</h2>
+							<p>Text Content #7</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h2>Title #8</h2>
+							<p>Text Content #8</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<foot id="foot" class="foot">
+			<h1 class="foot_title">Contact With Me</h1>
+			<div class="foot_info_main">
+				<ul>
+					<li class="uname1_items">
+						<a href="http://music.163.com/#/user/home?id=40632376" target="_blank">歌单</a>
+					</li>
+					<li class="qie_items">
+						<a href="http://whiteg.cn/jump/qq.html" target="_blank">企鹅</a>
+					</li>
+					<li class="pan_items">
+						<a href="http://yun.whiteg.cn" target="_blank">私云</a>
+					</li>
+					<li class="email_items">
+						<a title="2017/03/2 07:59:09" class="show_time" target="_self">邮箱</a>
+					</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+			<div class="foot_power">
+				<h3>©2020-2020 Powered by
+					<p title="Thanks" target="_blank"><a title="前端小老鼠" href="/">Cononico's
+							风雨兼程</a> | <a href='https://github.com/MrSian'>MrSian</a> | <a title="我想？"
+							href="http://whiteg.cn">MrSian.微风细雨</a></p>
+					<p title="2020/09/8 16:50:00" name="show_time" style="cursor: progress;">时间</p>
+					<!--a href="/" title="beian" target="_blank">粤ICP备*******号</a-->
+				</h3>
+			</div>
+		</foot>
+	</div>
+	<div class="mp" id='mpi'>
+		<div class="mp-box">
+			<img src="images/mp/mplayer_error.png" alt="music cover" class="mp-cover">
+			<div class="mp-info">
+				<p class="mp-name">名字</p>
+				<p class="mp-singer">歌手</p>
+				<p><span class="mp-time-current">00:00</span>/<span class="mp-time-all">00:00</span></p>
+			</div>
+			<div class="mp-btn">
+				<button class="mp-prev" title="上一首"></button>
+				<button class="mp-pause" title="播放"></button>
+				<button class="mp-next" title="下一首"></button>
+				<button class="mp-mode" title="播放模式"></button>
+				<div class="mp-vol">
+					<button class="mp-vol-img" title="静音"></button>
+					<div class="mp-vol-range" data-range_min="0" data-range_max="100" data-cur_min="80">
+						<div class="mp-vol-current"></div>
+						<div class="mp-vol-circle"></div>
+					</div>
+				</div>
+			</div>
+			<div class="mp-pro">
+				<div class="mp-pro-current"></div>
+			</div>
+			<div class="mp-menu">
+				<button class="mp-list-toggle"></button>
+				<button class="mp-lrc-toggle"></button>
+			</div>
+		</div>
+		<div class="mp-lrc-box">
+			<ul class="mp-lrc"></ul>
+			<button class="mp-lrc-close"></button>
+		</div>
+		<button id="mp-toggle" class="mp-toggle">
+			<span class="mp-toggle-img"></span>
+		</button>
+		<div class="mp-list-box">
+			<ul class="mp-list-title"></ul>
+			<table class="mp-list-table">
+				<thead>
+					<tr>
+						<th>歌名</th>
+						<th>歌手</th>
+						<th>时长</th>
+					</tr>
+				</thead>
+				<tbody class="mp-list"></tbody>
+			</table>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/about.js"></script>
+	<script src="js/mp/mplayer.js"></script>
+	<script src="js/mp/mplayer-list.js"></script>
+	<script src="js/mp/jquery.nstSlider.min.js"></script>
+	<script src="js/mp/mplayer-main.js"></script>
+</body>
+
+</html>
